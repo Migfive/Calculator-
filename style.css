@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #020909;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 1px #75c8ff;
+    text-align: center;
+}
+
+form #salida{
+    text-align: right;
+    width: 100px;
+    padding: 10px;
+    background-color: #faf0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 1px #6c7378;
+}
+
+form input{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #75c8ff;
+}
